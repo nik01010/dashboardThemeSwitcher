@@ -11,8 +11,11 @@ An example of how to create a live theme switcher for R Shinydashboard applicati
 
 
 ## 1. Required packages
-Install the [dashboardthemes](https://github.com/nik01010/dashboardthemes) R package from GitHub.
-
+- Install the [dashboardthemes](https://github.com/nik01010/dashboardthemes) R package from GitHub.
+- Load the package within your application code:
+```R
+library(dashboardthemes)
+```
 
 ## 2. Create a Shiny Module
 - Copy the below Shiny Module code.
