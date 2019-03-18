@@ -17,7 +17,7 @@ Install the [dashboardthemes](https://github.com/nik01010/dashboardthemes) R pac
 ## 2. Create a Shiny Module
 - Copy the below Shiny Module code.
 - Create a new script called 'moduleChangeTheme.R' within your project and paste the code inside.
-- Source the module within your shinydashboard application using source("./YourDirectory/moduleChangeTheme.R")
+- Source the module within your application using source("./YourDirectory/moduleChangeTheme.R")
 ```R
 # Ui functions ------------------------------------------------------------
 uiChangeThemeDropdown <- function(dropDownLabel = "Change Theme", defaultTheme = "grey_light")
@@ -72,7 +72,7 @@ serverChangeTheme <- function(input, output, session)
 
 
 ## 3. Ui changes
-In the Ui part of your shinydashboard:
+In the Ui part of your application:
 - Insert the uiChangeThemeOutput() function within the body of the application.
 - This will ensure the CSS styles sent by the server part of the application are received and updated in real-time.
 ```R
@@ -109,7 +109,7 @@ In the Ui part of your shinydashboard:
 
 
 ## 4. Server changes
-In the Server part of your shinydashboard:
+In the Server part of your application:
 - Call the Shiny Module created above.
 - This will create an ObserveEvent that monitors the 'dbxChangeTheme' drop-box created within the Ui, and dynamically inject CSS code into the application in real-time.
 ```R
