@@ -74,7 +74,7 @@ serverChangeTheme <- function(input, output, session)
 ## 3. Ui changes
 In the Ui part of your application:
 - Insert the uiChangeThemeOutput() function within the body of the application.
-- This will ensure the CSS styles sent by the server part of the application are received and updated in real-time.
+- This will ensure the CSS styles sent by the server part of the application are received and applied in real-time.
 ```R
   ...
   # Body --------------------------------------------------------------------
