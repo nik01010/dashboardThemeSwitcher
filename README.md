@@ -100,7 +100,7 @@ In the Ui part of your application:
             )
           ...
 ```
-- Alternatively, it's possible to change the default drop-down label and default theme 
+- Alternatively, it's possible to change the default drop-down label and default theme by changing the dropDownLabel and defaultTheme parameters respectively.
 ```R
   ...
   uiChangeThemeDropdown(dropDownLabel = "Your Label", defaultTheme = "onenote")
