@@ -4,6 +4,8 @@
 <br>
 
 An example of how to create a live theme switcher for shinydashboard applications.
+
+<br>
 <br>
 <a href="http://oi65.tinypic.com/flvkp.jpg" target="_blank"><img src="http://oi65.tinypic.com/flvkp.jpg" alt="purple_gradient" border="0"></a>
 
