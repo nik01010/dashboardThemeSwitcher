@@ -20,7 +20,7 @@ Install the [dashboardthemes](https://github.com/nik01010/dashboardthemes) packa
 - Source the module within your shinydashboard application using source("./YourDirectory/moduleChangeTheme.R")
 ```R
 # Ui functions ------------------------------------------------------------
-uiChangeThemeDropdown <- function(dropDownLabel = "Change Theme", defaultTheme = "onenote")
+uiChangeThemeDropdown <- function(dropDownLabel = "Change Theme", defaultTheme = "grey_light")
 {
   changeThemeChoices <- c(
     "Blue gradient" = "blue_gradient",
@@ -88,6 +88,7 @@ In the Ui part of your shinydashboard:
       ...
 ```
 - Insert the uiChangeThemeDropdown() function where you want the live theme switcher drop-down to be displayed.
+- This will create a drop-down with Id 'dbxChangeTheme', which can be monitored in the server part of the application.
 ```R
       ...
       tabItem(
@@ -98,6 +99,12 @@ In the Ui part of your shinydashboard:
               uiChangeThemeDropdown()
             )
           ...
+```
+- Alternatively, it's possible to change the default drop-down label and default theme 
+```R
+  ...
+  uiChangeThemeDropdown(dropDownLabel = "Your Label", defaultTheme = "onenote")
+  ...
 ```
 
 
