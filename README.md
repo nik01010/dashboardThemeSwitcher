@@ -94,13 +94,16 @@ In the Ui part of your application:
 - This will create a drop-down with Id 'dbxChangeTheme', which can be monitored in the server part of the application.
 ```R
   ...
+  # Tab content -------------------------------------------------------------
   tabItem(
     tabName = "tabThemes",
-      fluidRow(
-        column(
-          width = 12,
-          uiChangeThemeDropdown()
-        )
+    fluidRow(
+      column(
+        width = 12,
+
+        # Theme drop-down ---------------------------------------------------------
+        uiChangeThemeDropdown()
+      )
       ...
 ```
 - Alternatively, it's possible to change the default drop-down label and default selected theme by changing the dropDownLabel and defaultTheme parameters respectively.
