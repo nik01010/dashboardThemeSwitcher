@@ -93,21 +93,21 @@ In the Ui part of your application:
 - Insert the uiChangeThemeDropdown() function where you want the live theme switcher drop-down to be displayed.
 - This will create a drop-down with Id 'dbxChangeTheme', which can be monitored in the server part of the application.
 ```R
-      ...
-      tabItem(
-        tabName = "tabThemes",
-          fluidRow(
-            column(
-              width = 12,
-              uiChangeThemeDropdown()
-            )
-          ...
+    ...
+    tabItem(
+      tabName = "tabThemes",
+        fluidRow(
+          column(
+            width = 12,
+            uiChangeThemeDropdown()
+          )
+        ...
 ```
 - Alternatively, it's possible to change the default drop-down label and default selected theme by changing the dropDownLabel and defaultTheme parameters respectively.
 ```R
-  ...
-  uiChangeThemeDropdown(dropDownLabel = "Your Label", defaultTheme = "onenote")
-  ...
+    ...
+    uiChangeThemeDropdown(dropDownLabel = "Your Label", defaultTheme = "onenote")
+    ...
 ```
 
 
@@ -117,9 +117,9 @@ In the Server part of your application:
 - This will create an ObserveEvent that monitors the 'dbxChangeTheme' drop-box created within the Ui, and dynamically inject CSS code into the application in real-time.
 ```R
 server <- function(input, output, session) {
-  ...
-  # Changing theme ----------------------------------------------------------
-  callModule(module = serverChangeTheme, id = "moduleChangeTheme")
-  ...
+    ...
+    # Changing theme ----------------------------------------------------------
+    callModule(module = serverChangeTheme, id = "moduleChangeTheme")
+    ...
 }
 ```
