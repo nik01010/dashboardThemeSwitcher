@@ -3,7 +3,7 @@
 <a href="https://nik01010.wordpress.com/" target="_blank">Blog</a> | <a href="https://nik01010.wordpress.com/contact/" target="_blank">Contact</a>
 <br>
 
-An example of how to create a live theme switcher for Shinydashboard applications.
+An example of how to create a live theme switcher for R Shinydashboard applications.
 
 <br>
 
@@ -11,7 +11,7 @@ An example of how to create a live theme switcher for Shinydashboard application
 
 
 ## 1. Required packages
-Install the [dashboardthemes](https://github.com/nik01010/dashboardthemes) package from GitHub.
+Install the [dashboardthemes](https://github.com/nik01010/dashboardthemes) R package from GitHub.
 
 
 ## 2. Create a Shiny Module
