@@ -5,8 +5,10 @@
 
 An example of how to create a live theme switcher for shinydashboard applications.
 
+
 ## 1. Required packages
 Install the [dashboardthemes](https://github.com/nik01010/dashboardthemes) package from GitHub.
+
 
 ## 2. Create a Shiny Module
 - Copy the below Shiny Module code.
@@ -64,6 +66,7 @@ serverChangeTheme <- function(input, output, session)
 }
 ```
 
+
 ## 3. Ui changes
 In the Ui part of your shinydashboard:
 - Insert the uiChangeThemeOutput() function within the body of the application.
@@ -92,6 +95,7 @@ In the Ui part of your shinydashboard:
             )
           ...
 ```
+
 
 ## 4. Server changes
 In the Server part of your shinydashboard:
