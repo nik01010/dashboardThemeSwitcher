@@ -4,7 +4,8 @@
 <br>
 
 An example of how to create a live theme switcher for shinydashboard applications.
-
+<br>
+<a href="https://imggmi.com" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/3/18/7635cbd043935b32f44930762c3e08b8-full.png" border="0"/></a>
 
 ## 1. Required packages
 Install the [dashboardthemes](https://github.com/nik01010/dashboardthemes) package from GitHub.
