@@ -116,10 +116,10 @@ In the Server part of your application:
 - Call the Shiny Module created above using the callModule() function.
 - This will create an ObserveEvent that monitors the 'dbxChangeTheme' drop-box created within the Ui, and dynamically inject CSS code into the application in real-time.
 ```R
-server <- function(input, output, session) {
-    ...
-    # Changing theme ----------------------------------------------------------
-    callModule(module = serverChangeTheme, id = "moduleChangeTheme")
-    ...
-}
+    server <- function(input, output, session) {
+      ...
+      # Changing theme ----------------------------------------------------------
+      callModule(module = serverChangeTheme, id = "moduleChangeTheme")
+      ...
+    }
 ```
