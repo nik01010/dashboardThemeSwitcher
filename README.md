@@ -7,7 +7,7 @@ An example of how to create a live theme switcher for R Shinydashboard applicati
 
 <br>
 
-<a href="http://oi66.tinypic.com/2rcwdx5.jpg" target="_blank"><img src="http://oi66.tinypic.com/2rcwdx5.jpg" alt="theme_switcher_img" border="0"></a>
+<a href="https://i.ibb.co/1T1pLtS/live-theme-switcher.png" target="_blank"><img src="https://i.ibb.co/1T1pLtS/live-theme-switcher.png" alt="theme_switcher_img" border="0"></a>
 
 
 ## 1. Required packages
