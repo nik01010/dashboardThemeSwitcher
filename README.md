@@ -27,7 +27,7 @@ library(dashboardthemes)
   {
     changeThemeChoices <- c(
       "Blue gradient" = "blue_gradient",
-      "BoE website" = "boe_website",
+      "Flat Red" = "flat_red",
       "Grey light" = "grey_light",
       "Grey dark" = "grey_dark",
       "OneNote" = "onenote",
