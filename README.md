@@ -1,7 +1,5 @@
 # dashboardThemeSwitcher
 
-<a href="https://nik01010.wordpress.com/" target="_blank">Blog</a> | <a href="https://nik01010.wordpress.com/contact/" target="_blank">Contact</a>
-<br>
 
 An example of how to create a live theme switcher for R Shinydashboard applications.
 
